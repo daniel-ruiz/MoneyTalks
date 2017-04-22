@@ -13,3 +13,12 @@ struct Euro {
         return Euro(_amount * factor)
     }
 }
+
+extension Euro: Equatable {
+    
+    public static func ==(lhs: Euro, rhs: Euro) -> Bool {
+        return lhs._amount == rhs._amount
+    }
+
+}
+
