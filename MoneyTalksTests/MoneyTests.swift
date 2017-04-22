@@ -2,22 +2,22 @@
 import XCTest
 @testable import MoneyTalks
 
-class EuroTests: XCTestCase {
+class MoneyTests: XCTestCase {
     
-    var five: Euro!
-    var otherFive: Euro!
-    var ten: Euro!
+    var five: Money!
+    var otherFive: Money!
+    var ten: Money!
     
     override func setUp() {
         super.setUp()
         
-        five = Euro(5)
-        otherFive = Euro(5)
-        ten = Euro(10)
+        five = Money(amount: 5)
+        otherFive = Money(amount: 5)
+        ten = Money(amount: 10)
     }
     
     func testCanCreateEuro() {
-        XCTAssertNotNil(Euro())
+        XCTAssertNotNil(Money())
     }
     
     func testSimpleMultiplication(){
