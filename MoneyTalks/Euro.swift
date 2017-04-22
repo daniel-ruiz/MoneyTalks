@@ -22,3 +22,12 @@ extension Euro: Equatable {
 
 }
 
+extension Euro: Hashable {
+    
+    public var hashValue: Int {
+        get {
+            return _amount.hashValue
+        }
+    }
+    
+}
