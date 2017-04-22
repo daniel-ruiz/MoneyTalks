@@ -36,4 +36,8 @@ class EuroTests: XCTestCase {
         XCTAssertNotEqual(ten.hashValue, otherFive.hashValue)
     }
     
+    func testSimpleAddition() {
+        XCTAssertEqual(ten, five.plus(otherFive))
+    }
+    
 }
