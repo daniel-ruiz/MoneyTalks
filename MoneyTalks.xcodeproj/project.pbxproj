@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3B68F61EAB4DB500A3EB1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B68F51EAB4DB500A3EB1B /* AppDelegate.swift */; };
+		AA3B68F81EAB4DB500A3EB1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B68F71EAB4DB500A3EB1B /* ViewController.swift */; };
+		AA3B68FB1EAB4DB500A3EB1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3B68F91EAB4DB500A3EB1B /* Main.storyboard */; };
+		AA3B68FD1EAB4DB500A3EB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3B68FC1EAB4DB500A3EB1B /* Assets.xcassets */; };
+		AA3B69001EAB4DB500A3EB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3B68FE1EAB4DB500A3EB1B /* LaunchScreen.storyboard */; };
+		AA3B690B1EAB4DB500A3EB1B /* MoneyTalksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B690A1EAB4DB500A3EB1B /* MoneyTalksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA3B69071EAB4DB500A3EB1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3B68EA1EAB4DB500A3EB1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3B68F11EAB4DB500A3EB1B;
+			remoteInfo = MoneyTalks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA3B68F21EAB4DB500A3EB1B /* MoneyTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3B68F51EAB4DB500A3EB1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA3B68F71EAB4DB500A3EB1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA3B68FA1EAB4DB500A3EB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3B68FC1EAB4DB500A3EB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3B68FF1EAB4DB500A3EB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3B69011EAB4DB500A3EB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3B69061EAB4DB500A3EB1B /* MoneyTalksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTalksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3B690A1EAB4DB500A3EB1B /* MoneyTalksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTalksTests.swift; sourceTree = "<group>"; };
+		AA3B690C1EAB4DB500A3EB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3B68EF1EAB4DB500A3EB1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3B69031EAB4DB500A3EB1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3B68E91EAB4DB500A3EB1B = {
+			isa = PBXGroup;
+			children = (
+				AA3B68F41EAB4DB500A3EB1B /* MoneyTalks */,
+				AA3B69091EAB4DB500A3EB1B /* MoneyTalksTests */,
+				AA3B68F31EAB4DB500A3EB1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3B68F31EAB4DB500A3EB1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B68F21EAB4DB500A3EB1B /* MoneyTalks.app */,
+				AA3B69061EAB4DB500A3EB1B /* MoneyTalksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3B68F41EAB4DB500A3EB1B /* MoneyTalks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B68F51EAB4DB500A3EB1B /* AppDelegate.swift */,
+				AA3B68F71EAB4DB500A3EB1B /* ViewController.swift */,
+				AA3B68F91EAB4DB500A3EB1B /* Main.storyboard */,
+				AA3B68FC1EAB4DB500A3EB1B /* Assets.xcassets */,
+				AA3B68FE1EAB4DB500A3EB1B /* LaunchScreen.storyboard */,
+				AA3B69011EAB4DB500A3EB1B /* Info.plist */,
+			);
+			path = MoneyTalks;
+			sourceTree = "<group>";
+		};
+		AA3B69091EAB4DB500A3EB1B /* MoneyTalksTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B690A1EAB4DB500A3EB1B /* MoneyTalksTests.swift */,
+				AA3B690C1EAB4DB500A3EB1B /* Info.plist */,
+			);
+			path = MoneyTalksTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3B68F11EAB4DB500A3EB1B /* MoneyTalks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3B690F1EAB4DB500A3EB1B /* Build configuration list for PBXNativeTarget "MoneyTalks" */;
+			buildPhases = (
+				AA3B68EE1EAB4DB500A3EB1B /* Sources */,
+				AA3B68EF1EAB4DB500A3EB1B /* Frameworks */,
+				AA3B68F01EAB4DB500A3EB1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyTalks;
+			productName = MoneyTalks;
+			productReference = AA3B68F21EAB4DB500A3EB1B /* MoneyTalks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA3B69051EAB4DB500A3EB1B /* MoneyTalksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3B69121EAB4DB500A3EB1B /* Build configuration list for PBXNativeTarget "MoneyTalksTests" */;
+			buildPhases = (
+				AA3B69021EAB4DB500A3EB1B /* Sources */,
+				AA3B69031EAB4DB500A3EB1B /* Frameworks */,
+				AA3B69041EAB4DB500A3EB1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3B69081EAB4DB500A3EB1B /* PBXTargetDependency */,
+			);
+			name = MoneyTalksTests;
+			productName = MoneyTalksTests;
+			productReference = AA3B69061EAB4DB500A3EB1B /* MoneyTalksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3B68EA1EAB4DB500A3EB1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniel Ruiz";
+				TargetAttributes = {
+					AA3B68F11EAB4DB500A3EB1B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5QSHG3473C;
+						ProvisioningStyle = Automatic;
+					};
+					AA3B69051EAB4DB500A3EB1B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5QSHG3473C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA3B68F11EAB4DB500A3EB1B;
+					};
+				};
+			};
+			buildConfigurationList = AA3B68ED1EAB4DB500A3EB1B /* Build configuration list for PBXProject "MoneyTalks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3B68E91EAB4DB500A3EB1B;
+			productRefGroup = AA3B68F31EAB4DB500A3EB1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3B68F11EAB4DB500A3EB1B /* MoneyTalks */,
+				AA3B69051EAB4DB500A3EB1B /* MoneyTalksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3B68F01EAB4DB500A3EB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3B69001EAB4DB500A3EB1B /* LaunchScreen.storyboard in Resources */,
+				AA3B68FD1EAB4DB500A3EB1B /* Assets.xcassets in Resources */,
+				AA3B68FB1EAB4DB500A3EB1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3B69041EAB4DB500A3EB1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3B68EE1EAB4DB500A3EB1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3B68F81EAB4DB500A3EB1B /* ViewController.swift in Sources */,
+				AA3B68F61EAB4DB500A3EB1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3B69021EAB4DB500A3EB1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3B690B1EAB4DB500A3EB1B /* MoneyTalksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA3B69081EAB4DB500A3EB1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3B68F11EAB4DB500A3EB1B /* MoneyTalks */;
+			targetProxy = AA3B69071EAB4DB500A3EB1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA3B68F91EAB4DB500A3EB1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3B68FA1EAB4DB500A3EB1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3B68FE1EAB4DB500A3EB1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3B68FF1EAB4DB500A3EB1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3B690D1EAB4DB500A3EB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3B690E1EAB4DB500A3EB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3B69101EAB4DB500A3EB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5QSHG3473C;
+				INFOPLIST_FILE = MoneyTalks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielruiz.MoneyTalks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA3B69111EAB4DB500A3EB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5QSHG3473C;
+				INFOPLIST_FILE = MoneyTalks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielruiz.MoneyTalks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA3B69131EAB4DB500A3EB1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5QSHG3473C;
+				INFOPLIST_FILE = MoneyTalksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielruiz.MoneyTalksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyTalks.app/MoneyTalks";
+			};
+			name = Debug;
+		};
+		AA3B69141EAB4DB500A3EB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5QSHG3473C;
+				INFOPLIST_FILE = MoneyTalksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielruiz.MoneyTalksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyTalks.app/MoneyTalks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3B68ED1EAB4DB500A3EB1B /* Build configuration list for PBXProject "MoneyTalks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3B690D1EAB4DB500A3EB1B /* Debug */,
+				AA3B690E1EAB4DB500A3EB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3B690F1EAB4DB500A3EB1B /* Build configuration list for PBXNativeTarget "MoneyTalks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3B69101EAB4DB500A3EB1B /* Debug */,
+				AA3B69111EAB4DB500A3EB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA3B69121EAB4DB500A3EB1B /* Build configuration list for PBXNativeTarget "MoneyTalksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3B69131EAB4DB500A3EB1B /* Debug */,
+				AA3B69141EAB4DB500A3EB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3B68EA1EAB4DB500A3EB1B /* Project object */;
+}
