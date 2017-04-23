@@ -7,6 +7,7 @@ class MoneyTests: XCTestCase {
     var five: Money!
     var otherFive: Money!
     var ten: Money!
+    var broker: Broker!
     
     override func setUp() {
         super.setUp()
@@ -14,6 +15,7 @@ class MoneyTests: XCTestCase {
         five = Money(amount: 5)
         otherFive = Money(amount: 5)
         ten = Money(amount: 10)
+        broker = Broker()
     }
     
     func testCanCreateEuro() {
@@ -40,4 +42,8 @@ class MoneyTests: XCTestCase {
         XCTAssertEqual(ten, five.plus(otherFive))
     }
     
+    func testSimpleReduction() {
+        broker.addRate(from: "EUR", to: "EUR", rate: 1)
+        XCTAssertEqual(try! five.reduced(to: "EUR", broker: broker), five)
+    }
 }

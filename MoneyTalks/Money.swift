@@ -20,6 +20,11 @@ struct Money {
     func plus(_ other: Money) -> Money {
         return Money(amount: _amount + other._amount)
     }
+    
+    func reduced(to: Currency, broker: Broker) throws -> Money {
+        let conversionRate = try broker.rate(from: currency, to: to)
+        return Money(amount: _amount * conversionRate, currency: to)
+    }
 }
 
 extension Money: Equatable {

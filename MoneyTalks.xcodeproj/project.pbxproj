@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2948C11EACE95F006D1E98 /* BrokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2948C01EACE95F006D1E98 /* BrokerTests.swift */; };
+		AA2948C31EACEA2F006D1E98 /* Broker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2948C21EACEA2F006D1E98 /* Broker.swift */; };
 		AA3B68F61EAB4DB500A3EB1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B68F51EAB4DB500A3EB1B /* AppDelegate.swift */; };
 		AA3B68F81EAB4DB500A3EB1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B68F71EAB4DB500A3EB1B /* ViewController.swift */; };
 		AA3B68FB1EAB4DB500A3EB1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3B68F91EAB4DB500A3EB1B /* Main.storyboard */; };
 		AA3B68FD1EAB4DB500A3EB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3B68FC1EAB4DB500A3EB1B /* Assets.xcassets */; };
 		AA3B69001EAB4DB500A3EB1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3B68FE1EAB4DB500A3EB1B /* LaunchScreen.storyboard */; };
-		AA3B690B1EAB4DB500A3EB1B /* MoneyTalksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B690A1EAB4DB500A3EB1B /* MoneyTalksTests.swift */; };
 		AA3B691B1EAB519300A3EB1B /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B691A1EAB519300A3EB1B /* MoneyTests.swift */; };
 		AA3B691D1EAB529100A3EB1B /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B691C1EAB529100A3EB1B /* Money.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2948C01EACE95F006D1E98 /* BrokerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokerTests.swift; sourceTree = "<group>"; };
+		AA2948C21EACEA2F006D1E98 /* Broker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Broker.swift; sourceTree = "<group>"; };
 		AA3B68F21EAB4DB500A3EB1B /* MoneyTalks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTalks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3B68F51EAB4DB500A3EB1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA3B68F71EAB4DB500A3EB1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +39,6 @@
 		AA3B68FF1EAB4DB500A3EB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA3B69011EAB4DB500A3EB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3B69061EAB4DB500A3EB1B /* MoneyTalksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTalksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA3B690A1EAB4DB500A3EB1B /* MoneyTalksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTalksTests.swift; sourceTree = "<group>"; };
 		AA3B690C1EAB4DB500A3EB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA3B691A1EAB519300A3EB1B /* MoneyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyTests.swift; sourceTree = "<group>"; };
 		AA3B691C1EAB529100A3EB1B /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
@@ -94,9 +96,9 @@
 		AA3B69091EAB4DB500A3EB1B /* MoneyTalksTests */ = {
 			isa = PBXGroup;
 			children = (
-				AA3B690A1EAB4DB500A3EB1B /* MoneyTalksTests.swift */,
 				AA3B690C1EAB4DB500A3EB1B /* Info.plist */,
 				AA3B691A1EAB519300A3EB1B /* MoneyTests.swift */,
+				AA2948C01EACE95F006D1E98 /* BrokerTests.swift */,
 			);
 			path = MoneyTalksTests;
 			sourceTree = "<group>";
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				AA3B691C1EAB529100A3EB1B /* Money.swift */,
+				AA2948C21EACEA2F006D1E98 /* Broker.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2948C31EACEA2F006D1E98 /* Broker.swift in Sources */,
 				AA3B68F81EAB4DB500A3EB1B /* ViewController.swift in Sources */,
 				AA3B68F61EAB4DB500A3EB1B /* AppDelegate.swift in Sources */,
 				AA3B691D1EAB529100A3EB1B /* Money.swift in Sources */,
@@ -257,8 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2948C11EACE95F006D1E98 /* BrokerTests.swift in Sources */,
 				AA3B691B1EAB519300A3EB1B /* MoneyTests.swift in Sources */,
-				AA3B690B1EAB4DB500A3EB1B /* MoneyTalksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +466,7 @@
 				AA3B69111EAB4DB500A3EB1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA3B69121EAB4DB500A3EB1B /* Build configuration list for PBXNativeTarget "MoneyTalksTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				AA3B69141EAB4DB500A3EB1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,7 +5,7 @@ typealias Rate = Int
 typealias RateDictionary = [String: Rate]
 
 enum BrokerErrors: Error {
-    case unknownRate
+    case unknownRate(key: String)
 }
 
 struct Broker {
@@ -22,7 +22,7 @@ struct Broker {
     
     func rate(from: Currency, to: Currency) throws -> Rate {
         guard let rate = rates[keyForRate(from: from, to: to)] else {
-            throw BrokerErrors.unknownRate
+            throw BrokerErrors.unknownRate(key: keyForRate(from: from, to: to))
         }
         
         return rate
