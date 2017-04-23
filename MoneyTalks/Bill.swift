@@ -17,7 +17,7 @@ struct Bill: Money {
         return Bill(amount: _amount * factor)
     }
     
-    func plus(_ addend: Money) -> Bill {
+    func plus(_ addend: Bill) -> Bill {
         return Bill(amount: _amount + addend._amount)
     }
     
