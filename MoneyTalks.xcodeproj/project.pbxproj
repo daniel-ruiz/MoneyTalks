@@ -17,6 +17,7 @@
 		AA3B691B1EAB519300A3EB1B /* BillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B691A1EAB519300A3EB1B /* BillTests.swift */; };
 		AA3B691D1EAB529100A3EB1B /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3B691C1EAB529100A3EB1B /* Bill.swift */; };
 		AA4A79E21EAD522A00D748C4 /* Rater.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A79E11EAD522A00D748C4 /* Rater.swift */; };
+		AA4A79E41EAD530100D748C4 /* UnityBroker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4A79E31EAD530100D748C4 /* UnityBroker.swift */; };
 		AA7123EF1EACF90000F3769B /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7123EE1EACF90000F3769B /* Money.swift */; };
 		AA7123F11EACF91C00F3769B /* Wad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7123F01EACF91C00F3769B /* Wad.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		AA3B691A1EAB519300A3EB1B /* BillTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTests.swift; sourceTree = "<group>"; };
 		AA3B691C1EAB529100A3EB1B /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		AA4A79E11EAD522A00D748C4 /* Rater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rater.swift; sourceTree = "<group>"; };
+		AA4A79E31EAD530100D748C4 /* UnityBroker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnityBroker.swift; sourceTree = "<group>"; };
 		AA7123EE1EACF90000F3769B /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		AA7123F01EACF91C00F3769B /* Wad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +151,7 @@
 				AA2948C21EACEA2F006D1E98 /* Broker.swift */,
 				AA4A79E01EAD517B00D748C4 /* Protocols */,
 				AA7123F01EACF91C00F3769B /* Wad.swift */,
+				AA4A79E31EAD530100D748C4 /* UnityBroker.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				AA7123F11EACF91C00F3769B /* Wad.swift in Sources */,
 				AA2948C31EACEA2F006D1E98 /* Broker.swift in Sources */,
+				AA4A79E41EAD530100D748C4 /* UnityBroker.swift in Sources */,
 				AA7123EF1EACF90000F3769B /* Money.swift in Sources */,
 				AA3B68F81EAB4DB500A3EB1B /* ViewController.swift in Sources */,
 				AA3B68F61EAB4DB500A3EB1B /* AppDelegate.swift in Sources */,
