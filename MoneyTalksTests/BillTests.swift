@@ -2,24 +2,24 @@
 import XCTest
 @testable import MoneyTalks
 
-class MoneyTests: XCTestCase {
+class BillTests: XCTestCase {
     
-    var five: Money!
-    var otherFive: Money!
-    var ten: Money!
+    var five: Bill!
+    var otherFive: Bill!
+    var ten: Bill!
     var broker: Broker!
     
     override func setUp() {
         super.setUp()
         
-        five = Money(amount: 5)
-        otherFive = Money(amount: 5)
-        ten = Money(amount: 10)
+        five = Bill(amount: 5)
+        otherFive = Bill(amount: 5)
+        ten = Bill(amount: 10)
         broker = Broker()
     }
     
     func testCanCreateEuro() {
-        XCTAssertNotNil(Money())
+        XCTAssertNotNil(Bill())
     }
     
     func testSimpleMultiplication(){
