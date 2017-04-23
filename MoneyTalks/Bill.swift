@@ -3,7 +3,7 @@ import Foundation
 
 typealias Currency = String
 
-struct Bill {
+struct Bill: Money {
     
     var currency: Currency
     var _amount: Int
