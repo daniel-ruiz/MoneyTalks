@@ -9,6 +9,6 @@ protocol Money {
     
     func times(_ factor: Int) -> Self
     func plus(_ addend: Self) -> Self
-    func reduced(to: Currency, broker: Broker) throws -> Self
+    func reduced(to: Currency, broker: Rater) throws -> Bill
     
 }

@@ -19,7 +19,7 @@ struct Bill: Money {
         return Bill(amount: _amount + addend._amount)
     }
     
-    func reduced(to: Currency, broker: Broker) throws -> Bill {
+    func reduced(to: Currency, broker: Rater) throws -> Bill {
         let conversionRate = try broker.rate(from: currency, to: to)
         return Bill(amount: _amount * conversionRate, currency: to)
     }
