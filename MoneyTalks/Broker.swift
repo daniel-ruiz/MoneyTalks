@@ -1,14 +1,11 @@
 
 import Foundation
 
-typealias Rate = Int
-typealias RateDictionary = [String: Rate]
-
 enum BrokerErrors: Error {
     case unknownRate(key: String)
 }
 
-struct Broker {
+struct Broker: Rater {
     
     var rates: RateDictionary
     
