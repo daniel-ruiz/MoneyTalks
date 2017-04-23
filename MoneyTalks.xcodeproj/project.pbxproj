@@ -145,10 +145,18 @@
 			children = (
 				AA3B691C1EAB529100A3EB1B /* Bill.swift */,
 				AA2948C21EACEA2F006D1E98 /* Broker.swift */,
-				AA7123EE1EACF90000F3769B /* Money.swift */,
+				AA4A79E01EAD517B00D748C4 /* Protocols */,
 				AA7123F01EACF91C00F3769B /* Wad.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		AA4A79E01EAD517B00D748C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AA7123EE1EACF90000F3769B /* Money.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,6 +1,8 @@
 
 import Foundation
 
+typealias Currency = String
+
 protocol Money {
     
     init(amount: Int, currency: Currency)

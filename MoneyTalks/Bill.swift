@@ -1,8 +1,6 @@
 
 import Foundation
 
-typealias Currency = String
-
 struct Bill: Money {
     
     var currency: Currency
