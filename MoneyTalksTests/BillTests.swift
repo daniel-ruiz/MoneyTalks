@@ -16,9 +16,10 @@ class BillTests: XCTestCase {
         otherFive = Bill(amount: 5)
         ten = Bill(amount: 10)
         broker = Broker()
+        broker.addRate(from: "EUR", to: "EUR", rate: 1)
     }
     
-    func testCanCreateEuro() {
+    func testCanCreateBill() {
         XCTAssertNotNil(Bill())
     }
     
@@ -43,7 +44,6 @@ class BillTests: XCTestCase {
     }
     
     func testSimpleReduction() {
-        broker.addRate(from: "EUR", to: "EUR", rate: 1)
         XCTAssertEqual(try! five.reduced(to: "EUR", broker: broker), five)
     }
 }
