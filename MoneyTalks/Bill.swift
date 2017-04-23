@@ -17,14 +17,15 @@ struct Bill: Money {
         return Bill(amount: _amount * factor)
     }
     
-    func plus(_ other: Bill) -> Bill {
-        return Bill(amount: _amount + other._amount)
+    func plus(_ addend: Money) -> Bill {
+        return Bill(amount: _amount + addend._amount)
     }
     
     func reduced(to: Currency, broker: Broker) throws -> Bill {
         let conversionRate = try broker.rate(from: currency, to: to)
         return Bill(amount: _amount * conversionRate, currency: to)
     }
+
 }
 
 extension Bill: Equatable {
