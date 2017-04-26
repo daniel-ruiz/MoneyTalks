@@ -14,7 +14,7 @@ extension Wad: Money {
     }
     
     func times(_ factor: Int) -> Wad {
-        return self
+        return Wad(_bills: _bills.map{ $0.times(factor) })
     }
     
     func plus(_ addend: Wad) -> Wad {
