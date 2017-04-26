@@ -4,13 +4,20 @@ import XCTest
 
 class WadTests: XCTestCase {
     
+    var singleBillWad: Wad!
+    
+    override func setUp() {
+        super.setUp()
+        
+        singleBillWad = Wad(amount: 42, currency: "USD")
+    }
+    
     func testCanCreateWad() {
         XCTAssertNotNil(Wad())
     }
     
     func testEquality() {
         let emptyWad: Wad = Wad()
-        let singleBillWad = Wad(amount: 42, currency: "USD")
         
         // Identity
         XCTAssertEqual(emptyWad, emptyWad)
@@ -42,6 +49,10 @@ class WadTests: XCTestCase {
         
         XCTAssertEqual(reducedWad, tenBill)
         XCTAssertNotEqual(reducedWad, fifteenBill)
+    }
+    
+    func testSimpleAddition() {
+        XCTAssertEqual(singleBillWad.plus(Wad(amount: 8, currency: "USD")), Wad(amount: 50, currency: "USD"))
     }
     
 }
