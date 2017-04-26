@@ -43,3 +43,11 @@ extension Bill: Hashable {
     }
     
 }
+
+extension Bill: CustomStringConvertible {
+    public var description: String {
+        get {
+            return "<Bill of \(_amount) \(currency)>"
+        }
+    }
+}
