@@ -36,7 +36,12 @@ class WadTests: XCTestCase {
     func testSimpleReduction() {
         let tenWad = Wad(amount: 10, currency: "EUR")
         let tenBill = Bill(amount: 10, currency: "EUR")
-        XCTAssertEqual(try! tenWad.reduced(to: "EUR", broker: UnityBroker()), tenBill)
+        let fifteenBill = Bill(amount: 15, currency: "EUR")
+        
+        let reducedWad = try! tenWad.reduced(to: "EUR", broker: UnityBroker())
+        
+        XCTAssertEqual(reducedWad, tenBill)
+        XCTAssertNotEqual(reducedWad, fifteenBill)
     }
     
 }
